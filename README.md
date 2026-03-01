@@ -22,6 +22,19 @@ Use `/track` when you have multiple Claude Code instances open and want one trac
 
 **Optional argument:** a plan file path or description of what's being tracked (used for alignment checking in the final review).
 
+### replay
+
+Replay a repository's commit history as a narrated story.
+
+Use `/replay` to walk through a repo's history one commit at a time, told by an opinionated Senior Engineer narrator. Each commit is a chapter — concise, direct, with commentary when something is clever, suspicious, or just interesting.
+
+**Interactive setup:**
+- Choose a starting point (beginning, quarter, middle, etc.)
+- Choose mode: "infinite scroll" (continuous) or "prompt" (pause after each chapter)
+- If infinite scroll: choose speed (slow, medium, fast)
+
+**Ending:** always delivers a concise learning — what the repo's history teaches.
+
 ## License
 
 Apache-2.0 — see [LICENSE](LICENSE)
